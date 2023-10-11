@@ -9,7 +9,7 @@ pipeline {
            steps {
                 // Checkout your Git repository containing Terraform code
                 script {
-                    def gitUrl = 'https://github.com/SoundharyaVivekanandan/updated_Terraform-Module.git'
+                    def gitUrl = 'https://github.com/SoundharyaVivekanandan/Terraform-module-updated.git'
                     def gitBranch = 'main'
                     def gitCredentialsId = 'Git-Credentials' // Optional, if using credentials
 
